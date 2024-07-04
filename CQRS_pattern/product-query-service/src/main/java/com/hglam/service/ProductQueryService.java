@@ -14,7 +14,7 @@ public class ProductQueryService {
 
     @Autowired
     private ProductRepository repository;
-
+    //call the list of product from the repo
     public List<Product> getProducts() {
         return repository.findAll();
     }
